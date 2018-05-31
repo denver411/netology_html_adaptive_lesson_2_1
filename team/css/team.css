@@ -5,7 +5,8 @@
 
 .team__container {
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
+    min-width: 1024px;
 }
 
 .team__item {
